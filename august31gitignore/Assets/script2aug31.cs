@@ -7,7 +7,17 @@ public class script2aug31 : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log (MultiplyByTwo (myInt));
+		//Debug.Log (MultiplyByTwo (myInt));
+
+		
+		int myNumber = 0;
+
+		/*myNumber = myNumber + 20;
+		myNumber = myNumber * 5;*/
+
+		Debug.Log (myNumber);
+	
+	
 	}
 	int MultiplyByTwo (int number) {
 		int ret = number * 2;
@@ -15,6 +25,7 @@ public class script2aug31 : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-	
+
+
 	}
 }
