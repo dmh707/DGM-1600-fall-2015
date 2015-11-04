@@ -13,28 +13,16 @@ public class switches : MonoBehaviour {
 	switch (happiness) {
 		case 0:
 			Debug.Log (happiness);
-			happiness += 20;
+			happiness += 50;
 			break;
-		case 20:
+		case 50:
 			Debug.Log (happiness);
-			happiness += 20;
+			happiness += 50;
 			break;
-		case 40:
-			Debug.Log (happiness);
-			happiness += 20;
+		default:
+			Debug.Log ("what?");
 			break;
-		case 60:
-			Debug.Log (happiness);
-			happiness += 20;
-			break;
-		case 80:
-			Debug.Log (happiness);
-			happiness += 20;
-			break;
-		case 100:
-			Debug.Log (happiness);
-			happiness += 20;
-			break;
+		
 
 
 		}
